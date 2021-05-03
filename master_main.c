@@ -35,7 +35,7 @@ void init_timer(){
 
 void init_Buttons(){
 	
-	PORTD = 0b11111111; //Aktiverer pullup resistor på PD2 og PD3. Aktiverer også pullup for å unngå flytende inputs
+	PORTD = 0b11111111; //Aktiverer pullup resistor pÃ¥ PD2 og PD3. Aktiverer ogsÃ¥ pullup for Ã¥ unngÃ¥ flytende inputs
 	DDRD =  0b00000000; //Setter alle til inputs
 	PORTC = 0b00000000; //
 	DDRC = 0b00000000; //Setter alle til inputs
